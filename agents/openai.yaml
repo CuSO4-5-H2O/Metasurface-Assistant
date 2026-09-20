@@ -1,0 +1,4 @@
+interface:
+  display_name: "Metasurface Assistant v1.0 RC1"
+  short_description: "Optimize active metasurfaces and antennas in CST"
+  default_prompt: "Use $metasurface-assistant to inspect, simulate, evaluate, and optimize this metasurface or antenna workflow."

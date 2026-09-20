@@ -1,0 +1,92 @@
+{
+  "profile": "reflective_programmable",
+  "classification": null,
+  "radiation_antenna_gate": null,
+  "remaining_validation": [],
+  "source_project": "E:\\Codex\\toolkits\\CST-Optimization-Workspace\\tasks\\task_xxx\\runs\\run_001\\projects\\working.cst",
+  "output_dir": "E:\\Codex\\toolkits\\CST-Optimization-Workspace\\tasks\\task_xxx\\runs\\run_001\\metasurface_study",
+  "frequency_spec": {
+    "start": 4.0,
+    "stop": 5.0,
+    "unit": "GHz",
+    "target": 4.5
+  },
+  "state_backend": "auto",
+  "state_codebook": [
+    {
+      "id": "00",
+      "bits": "00",
+      "parameters": {
+        "Cx": 0.914,
+        "Cy": 0.914
+      }
+    },
+    {
+      "id": "01",
+      "bits": "01",
+      "parameters": {
+        "Cx": 0.914,
+        "Cy": 0.604
+      }
+    },
+    {
+      "id": "10",
+      "bits": "10",
+      "parameters": {
+        "Cx": 0.475,
+        "Cy": 0.914
+      }
+    },
+    {
+      "id": "11",
+      "bits": "11",
+      "parameters": {
+        "Cx": 0.475,
+        "Cy": 0.604
+      }
+    }
+  ],
+  "evaluation": {
+    "sparameter_treepaths": [
+      "1D Results\\S-Parameters\\S1,1"
+    ],
+    "phase_target_deg": null,
+    "codebook_treepath": "1D Results\\S-Parameters\\S1,1",
+    "phase_tolerance_deg": 10.0,
+    "amplitude_spread_db": 1.5,
+    "s11_threshold_db": -10.0,
+    "threshold_sources": {
+      "s11_threshold_db": "current task, project configuration, paper/device source, or built-in default",
+      "phase_tolerance_deg": "current task, project configuration, paper/device source, or built-in default",
+      "amplitude_spread_db": "current task, project configuration, paper/device source, or built-in default"
+    },
+    "farfield_phase_component": "E_theta",
+    "farfield_magnitude_floor_db": -30.0
+  },
+  "solver": {
+    "farfield_names": [],
+    "farfield_plot_mode": "Realized Gain",
+    "farfield_theta_step": 2.0,
+    "farfield_phi_step": 2.0,
+    "timeout_seconds": 3600
+  },
+  "feed_network": null,
+  "bias_network": null,
+  "budget": {
+    "max_cases": 16,
+    "max_trials": 10,
+    "wall_clock_seconds": 86400
+  },
+  "device_model": null,
+  "array": null,
+  "integration_levels": [],
+  "editable_parameters": {},
+  "optimization": null,
+  "mesh_convergence": null,
+  "spike_refinement": {
+    "enabled": false,
+    "max_passes": 1,
+    "mesh_operations": []
+  },
+  "device_evidence": []
+}
